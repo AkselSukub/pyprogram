@@ -14,3 +14,7 @@ while guesses_made < 3:
         print('Твое число больше загаданного мной.')
     if guess == number:
         break
+if guess == number:
+    print ('Ух ты, {0}! Ты угадал мое число, использовав {1} попыток!')
+else:
+    print ('А вот и не угадал! Я загадал число {0}'.format(number))
